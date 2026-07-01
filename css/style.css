@@ -174,12 +174,16 @@ a { color: inherit; text-decoration: none; }
   inset: 0;
   background: repeating-linear-gradient(
     90deg,
-    rgba(191, 224, 240, 0.55) 0px,
-    rgba(191, 224, 240, 0.55) 26px,
-    transparent 26px,
-    transparent 78px
+    transparent 0px,
+    transparent 32px,
+    rgba(120, 162, 196, 0.4) 36px,
+    rgba(178, 211, 232, 0.6) 44px,
+    rgba(178, 211, 232, 0.6) 74px,
+    rgba(120, 162, 196, 0.4) 82px,
+    transparent 86px,
+    transparent 118px
   );
-  opacity: 0.6;
+  opacity: 0.85;
   pointer-events: none;
 }
 .hero-inner { position: relative; max-width: 760px; }
@@ -323,7 +327,4 @@ a { color: inherit; text-decoration: none; }
   }
   .site-nav.open { display: flex; }
   .nav-toggle { display: flex; }
-  .header-cta { display: none; }
-  .cards { grid-template-columns: 1fr; }
-  .gallery { grid-template-columns: repeat(2, 1fr); }
-}
+  .header-cta { 
