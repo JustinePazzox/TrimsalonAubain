@@ -1,0 +1,9 @@
+Plaats hier je eigen foto's (bv. voor1.jpg, na1.jpg, voor2.jpg, na2.jpg, ...).
+
+Vervang daarna in index.html de placeholder-blokken in de sectie "Voor & Na" door:
+
+<div class="gallery-item">
+  <img src="images/voor1.jpg" alt="Voor de trimbeurt" style="width:100%;height:100%;object-fit:cover;border-radius:14px;">
+</div>
+
+Doe dit voor elke foto die je wilt tonen.
