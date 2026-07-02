@@ -113,7 +113,14 @@ a { color: inherit; text-decoration: none; }
   gap: 12px;
   margin-right: auto;
 }
-.logo-img { height: 84px; width: auto; display: block; border-radius: 8px; }
+.logo-img {
+  height: 92px;
+  width: auto;
+  display: block;
+  border-radius: 10px;
+  background: var(--cream);
+  padding: 6px 10px;
+}
 
 .site-nav { display: flex; gap: 26px; }
 .site-nav a {
@@ -328,5 +335,3 @@ a { color: inherit; text-decoration: none; }
     top: 100%;
     left: 0;
     right: 0;
-    background: var(--white);
-    flex-direction: column;
