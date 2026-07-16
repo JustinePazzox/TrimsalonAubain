@@ -221,6 +221,34 @@ a { color: inherit; text-decoration: none; }
   margin-bottom: 10px;
 }
 
+/* Breed prices */
+.breed-prices {
+  margin-top: 48px;
+  max-width: 480px;
+}
+.breed-prices h3 {
+  margin-bottom: 14px;
+}
+.breed-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.breed-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(28, 58, 99, 0.1);
+}
+.breed-list li span:first-child { color: var(--text); font-weight: 500; }
+.breed-price {
+  font-family: var(--font-display);
+  color: var(--navy);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
 /* About */
 .about-inner {
   display: grid;
