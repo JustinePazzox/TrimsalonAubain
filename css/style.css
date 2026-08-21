@@ -224,8 +224,8 @@ a { color: inherit; text-decoration: none; }
   margin: 4px 0 18px;
 }
 .price-small {
-  font-size: 0.95rem;
-  font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 /* Breed prices */
